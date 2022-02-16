@@ -1,0 +1,87 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+}
+figure {
+    margin: .5em 0em 0.5em 0em;
+}
+body {
+	background-color: rgb(255,255,255);
+}
+div.container {
+	background-color: rgb(255,255,255);
+}
+header {
+	background-color: rgb(255, 255, 255);
+	padding: 2em 2em 1em 1em;
+}
+h2 {
+	color: rgb(232, 79, 54);
+	font-family: Futura, sans-serif;
+    text-transform: uppercase;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 1em 0em 1em 1em;
+    letter-spacing: 0.1em;
+}
+h3 {
+    color:rgb(166, 138, 138);
+    font-family: futura, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    margin-left: 0em;
+}
+h4{
+    color:rgb(0, 0, 0);
+    font-family: futura, sans-serif;
+    font-weight: lighter;
+    margin: 2em 0em 0em 0em;
+}
+p {
+    color:rgb(0, 0, 0);
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.02em;
+    margin: 0em ;
+}
+nav ul {
+    padding:0;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: Futura, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color:rgb(232, 79, 54);
+}
+h2 a{
+    color: rgb(232, 79, 54);
+	font-family: Futura, sans-serif;
+    text-transform: uppercase;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 2em 0em 1em 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: left;
+}
+
+footer{
+    margin-top: 3em;
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
