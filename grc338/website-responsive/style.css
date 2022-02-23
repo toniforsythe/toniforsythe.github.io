@@ -12,7 +12,7 @@ body {
 }
 div.container {
 	background-color: rgb(255,255,255);
-    max-width: 90em;
+    max-width: 60em;
     margin:auto;
 }
 header {
