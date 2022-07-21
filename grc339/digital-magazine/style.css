@@ -104,6 +104,9 @@ section.photogallery main{
     grid-gap: 0 1em;
 
 }
+div.photogallery {
+    grid-column: 1/3;
+    }
 
 section.photogallery div.container{
     max-width: 60em;
@@ -151,7 +154,6 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
 }
 
-
 section.newsletter div.container{
     max-width: 60em;
     margin: 1em;
@@ -170,10 +172,20 @@ section.newsletter ul li{
 	box-sizing: border-box;
 }
 
+section.newsletter ul li label {
+	flex: 0 0 10em;
+}
+
+form {
+    max-width: 40em;
+    margin: auto;
+    padding: 2em;
+}
+
 section.newsletter ul li input[type="text"],
 section ul li input[type="email"],
 section ul li select {
-	flex: 4 0 27em;
+	flex: 4 0 25em;
 	box-sizing: border-box;
 }
 
